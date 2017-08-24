@@ -7,11 +7,11 @@ public class Hellos {
     public static void main(String[] args) {
         StringBuilder builder = new StringBuilder();
 
-
         builder.append("Hello, folks!\n");
         builder.append(nic_says_hello());
         builder.append(kk_says_hello());
         builder.append(Ethan_and_Liz_say_hello());
+        builder.append(sam_and_colin_say_hello());
         builder.append(Danish_and_Nick());
 
         System.out.println(builder.toString());
@@ -23,6 +23,10 @@ public class Hellos {
 
     private static String kk_says_hello() {
         return "KK says 'Hello!'\n";
+    }
+
+    private static String sam_and_colin_say_hello() {
+        return "Sam and Colin say 'Hey!'\n";
     }
 
     private static String Ethan_and_Liz_say_hello() {
