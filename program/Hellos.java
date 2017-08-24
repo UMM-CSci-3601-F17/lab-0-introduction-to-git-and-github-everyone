@@ -12,6 +12,7 @@ public class Hellos {
         builder.append(kk_says_hello());
         builder.append(kyle_and_dylan_say_hello());
         builder.append(Ethan_and_Liz_say_hello());
+        builder.append(paul_and_liam_says_hello());
         builder.append(charlot_and_vips_say_hello());
         builder.append(sam_and_colin_say_hello());
         builder.append(Danish_and_Nick());
@@ -27,6 +28,9 @@ public class Hellos {
 
     private static String kk_says_hello() {
         return "KK says 'Hello!'\n";
+    }
+    private static String paul_and_liam_says_hello() {
+        return "Liam and Paul says 'Hey'\n";
     }
 
     private static String kyle_and_dylan_say_hello() { return "Kyle and Dylan say 'Hello!'\n"; }
