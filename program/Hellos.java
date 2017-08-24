@@ -10,6 +10,7 @@ public class Hellos {
         builder.append("Hello, folks!\n");
         builder.append(nic_says_hello());
         builder.append(kk_says_hello());
+        builder.append(charlot_and_vips_say_hello());
 
         System.out.println(builder.toString());
     }
@@ -17,6 +18,8 @@ public class Hellos {
     private static String nic_says_hello() {
         return "Nic says 'Howdy!'\n";
     }
+
+    private static String charlot_and_vips_say_hello() {return "Charlot says 'Saluton', Vips says 'Hi'!'\n";}
 
     private static String kk_says_hello() {
         return "KK says 'Hello!'\n";
