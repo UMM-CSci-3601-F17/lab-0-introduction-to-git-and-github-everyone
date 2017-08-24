@@ -5,8 +5,9 @@
 public class Hellos {
 
     public static void main(String[] args) {
-        StringBuilder builder = new StringBuilder();
 
+        StringBuilder builder = new StringBuilder();
+        builder.append(Nick_and_Dexter_say_hello());
         builder.append("Hello, folks!\n");
         builder.append(nic_says_hello());
         builder.append(kk_says_hello());
@@ -22,4 +23,7 @@ public class Hellos {
         return "KK says 'Hello!'\n";
     }
 
+    private static String Nick_and_Dexter_say_hello() {
+        return "Nick and Dexter say 'Hello!'\n";
+    }
 }
