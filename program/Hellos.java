@@ -12,6 +12,8 @@ public class Hellos {
         builder.append(kk_says_hello());
         builder.append(Ethan_and_Liz_say_hello());
         builder.append(charlot_and_vips_say_hello());
+        builder.append(sam_and_colin_say_hello());
+        builder.append(Danish_and_Nick());
 
         System.out.println(builder.toString());
     }
@@ -26,7 +28,14 @@ public class Hellos {
         return "KK says 'Hello!'\n";
     }
 
+    private static String sam_and_colin_say_hello() {
+        return "Sam and Colin say 'Hey!'\n";
+    }
+
     private static String Ethan_and_Liz_say_hello() {
         return "Ethan and Liz say 'Hello!'\n";
+    }
+    private static String Danish_and_Nick() {
+        return "Danish and Nick say 'Hello!'\n";
     }
 }
