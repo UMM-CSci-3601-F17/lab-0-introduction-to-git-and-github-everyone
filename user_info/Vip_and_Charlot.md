@@ -7,4 +7,4 @@
 
 * I'm Charlot Shaw, pronounced shar-lo.
 * I go by he/him/his.
-* My github username is ` Norrolith`.
+* My github username is ` UnwarySage`.
